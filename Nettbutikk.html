@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <title>Nettbutikk</title>
+  <style>
+    body {
+      background-image: url("./Bilder/Pizza.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      
+
+    }
+    h4 {
+      margin:0;
+    }
+    p {
+      margin: 0 auto;
+      width: 400px;
+
+    }
+    css syntax:<p style="color:red">
+  </style>
+</head>
+<body>
+<form>
+<label for="navninput"></label>
+<input id="navninput" type="text" name="Navn" placeholder="Ditt navn" required><br>
+
+<label for="Navninput"></label>
+<input id="Navninput"type="text" name="Addresse" placeholder="Addresse" required><br>
+  <h1 align="center">Pizza Resturant</h1>
+
+  <h2><i>Pizza</i></h2>
+  <input id="Tacopizza" type="radio" name="Mat" value="Tacopizza"><label for="Tacopizza">Tacopizza <b>199kr</b></label>
+  <h4>Ingridienser:</h4>
+    <p>Løk, Hvitøk,Paprikapulver,Chilipulver,Hermetiske Tomater,Rød paprika, Gul paprika, Revet ost,
+      Tortillachips, Jalapeño, Tomat, Grønn Chili, Rødløk
+    </p>
+  <br>
+  <input id="Pepperoni pizza" type="radio" name="Mat" value="Pepperoni pizza"><label for="Pepperoni pizza">Pepperoni pizza <b>189kr</b></label>
+  <h4>Ingridienser:</h4>
+  <p>Pizzasaus, Revet ost, Pepperoni, sjampinjong, Frisk basilikum
+    </p>
+  <br>
+  <input id="Margarita" type="radio" name="Mat" value="Margarita" required><label for="Margarita">Margarita <b>149kr</b> </label>
+  <h4>Ingridienser:</h4>
+  <p>Mozarella, Tomater,Basilikum,Sjampinjong, Kokt skinke
+    </p>
+
+  <h2><i>Drikke er inkludert</i></h2>
+  <input id="Cola" type="radio" name="drikke" value="Cola"><label for="Cola">Cola</label><br>
+  <input id="Fanta" type="radio" name="drikke" value="Fanta"><label for="Fanta">Fanta</label><br>
+  <input id="Vann" type="radio" name="drikke" value="Vann" required><label for="Vann">Vann</label><br>
+
+  <h2>Tilbehør</h2>
+  <select name="Tilbehør" id="" required>
+  <option value="">velg tilbehør</option>
+  <option>ketchup</option>
+  <option>Sennep</option>
+  <option>Majones</option>
+  <option>Salt</option>
+  </select>
+  <button type="submit">Send inn!</button>
+</form>
+  </body>
+  </html>
